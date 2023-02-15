@@ -70,7 +70,7 @@ Your program will receive the following command line arguments:
     - `4b` looks for an unsigned integer stored using 4 bytes and big-endian encoding
     - `8l` looks for an unsigned integer stored using 8 bytes and little-endian encoding
     - `8b` looks for an unsigned integer stored using 8 bytes and big-endian encoding
-```text
+```
 
 The line below shows an example of using your program:
 ```bash
