@@ -36,7 +36,7 @@ Your program will receive the following command line arguments:
 ```
 The line below shows an example of using your program:
 ```bash
-$ ./decode-inst example.bin
+$ ./decode-inst cases/file-1.bin
 ```
 
 ### Output
@@ -47,7 +47,7 @@ For example, the byte `0x4D` encodes the instruction `div t0, s1, t1`, as it has
 Using a binary file with a single instruction like the example above, your program should output the following values:
 
 ```bash
-$ ./decode-inst test-cases/file-1.bin
+$ ./decode-inst cases/file-1.bin
 mul t1, t0, s1
 ```
 
@@ -74,7 +74,7 @@ Your program will receive the following command line arguments:
 
 The line below shows an example of using your program:
 ```bash
-$ ./int-hunter test-cases/file-16.bin 207 1b
+$ ./int-hunter cases/file-16.bin 207 1b
 ```
 
 ### Output
@@ -82,7 +82,7 @@ $ ./int-hunter test-cases/file-16.bin 207 1b
 Your program should write each occurrence of `key` to the `stdout` separated by a new line, following the format shown in the example below.
 
 ```bash
-$ ./int-hunter test-cases/file-16.bin 207 1b
+$ ./int-hunter cases/file-16.bin 207 1b
 0x00000008    0xCF    207
 0x00000009    0xCF    207
 ```
