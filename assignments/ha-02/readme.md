@@ -1,4 +1,4 @@
-# Homework Assignment 2 (due Mar 22)
+# Homework Assignment 2 (due Feb 22)
 
 The goal of this assignment is to practice **opening/reading binary files**, **casting**, and  **pointers and memory** in `C`.  The assignment is worth a total of 100 points.  If you have any questions or need any help, please visit us during office hours and/or post questions on `EdStem`.
 
