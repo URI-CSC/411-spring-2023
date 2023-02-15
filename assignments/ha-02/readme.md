@@ -3,7 +3,7 @@
 The goal of this assignment is to practice **opening/reading binary files**, **casting**, and  **pointers and memory** in `C`.  The assignment is worth a total of 100 points.  If you have any questions or need any help, please visit us during office hours and/or post questions on `EdStem`.
 
 
-## `Decoding Instructions (50 pts)`
+## `1. Decoding Instructions (50 pts)`
 In this problem, your program will take as input a binary file containing instructions from a very small `instruction set`.  The goal of your program is to read through the file and print every instruction and its operands.  The instruction set is very simple, and all instructions follow a uniform encoding:
 
 - 2 bits for the opcode
@@ -51,7 +51,7 @@ $ ./decode-inst cases/file-1.bin
 mul t1, t0, s1
 ```
 
-## `Integer hunter (50 pts)`
+## `2. Integer hunter (50 pts)`
 
 The goal of your program is to read through an input binary file and print all occurrences of an integer value `key`, assuming all bytes in the file are encoded using a corresponding `data_type`.
 
