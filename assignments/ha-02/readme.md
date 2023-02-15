@@ -81,9 +81,9 @@ $ ./int-hunter cases/file-16.bin 207 1b
 
 Your program should write each occurrence of `key` to the `stdout` separated by a new line, following the format shown in the example below.  The three columns shown in the example are: 
 
-    - offset of the occurrence relative to 0, using 8 hexadecimal digits
-    - value of the occurrence in hexadecimal, using the corresponding number of digits
-    - value of the occurrence as an unsigned integer
+- offset of the occurrence relative to 0, using 8 hexadecimal digits
+- value of the occurrence in hexadecimal, using the corresponding number of digits
+- value of the occurrence as an unsigned integer
 
 ```bash
 $ ./int-hunter cases/file-16.bin 207 1b
