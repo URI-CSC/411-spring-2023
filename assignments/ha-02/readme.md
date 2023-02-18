@@ -59,7 +59,7 @@ The goal of your program is to read through an input binary file and print all o
     - the word size, i.e. the number of bytes (can be 1, 2, 4, or 8)
     - the order of bytes (can be `big-endian` or `little endian`)
 
-> Assume that all unsigned integers in the file are *aligned*, in the sense that, integers start at positions multiple of the "word size"
+> Assume that all unsigned integers encoded in the binary file are *aligned*, in the sense that, integers start at positions multiple of the "word size"
 
 ### Input
 
