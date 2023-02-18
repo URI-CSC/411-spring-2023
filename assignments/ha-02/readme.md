@@ -56,8 +56,10 @@ mul t1, t0, s1
 ## `2. Integer hunter (50 pts)`
 
 The goal of your program is to read through an input binary file and print all occurrences of an unsigned integer value `key`, assuming all integers in the file are encoded using a corresponding `data_type`.  The data type is defined by a pair:
-    - the number of bytes (can be 1, 2, 4, or 8)
+    - the word size, i.e. the number of bytes (can be 1, 2, 4, or 8)
     - the order of bytes (can be `big-endian` or `little endian`)
+
+> Assume that all unsigned integers in the file are *aligned*, in the sense that, integers start at positions multiple of the "word size"
 
 ### Input
 
@@ -86,7 +88,7 @@ $ ./int-hunter cases/file-16.bin 207 1b
 Your program should report each occurrence of `key` in the file to the `stdout`, following the format shown in the example below.  For each occurrence your program should output a line containing three values (see below).  Each of the values must be separated by 4 whitespaces: 
 
 - offset of the occurrence relative to 0, using 8 hexadecimal digits (padded with zeros)
-- value of the occurrence in hexadecimal, using the corresponding number of digits (padded with zeros)
+- value of the occurrence in hexadecimal, using the corresponding number of bytes (padded with zeros)
 - value of the occurrence as an unsigned integer
 
 As an example, consider the input file `cases/file-16.bin`.  We can inspect its contents with `xxd` or `hexdump`:
